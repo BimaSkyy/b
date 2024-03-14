@@ -20,7 +20,7 @@ async function servers(PORT) {
     res.json(serverInfo);
   });
   
-  server.listen(PORT, () => {
+  server.listen(1000, () => {
     console.log('App listening on port', PORT);
   });
 }
