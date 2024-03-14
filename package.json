@@ -1,0 +1,54 @@
+{
+   "name": "neoxr-bot",
+   "version": "4.0-rc",
+   "description": "WhatsApp Bot (Base)",
+   "main": "index.js",
+   "scripts": {
+      "start": "node ."
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/neoxr/wbot.git"
+   },
+   "keywords": [
+      "wb",
+      "bot"
+   ],
+   "author": "Wildan Izzudin",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/neoxr/wbot/issues"
+   },
+   "homepage": "https://github.com/neoxr/wbot#readme",
+   "dependencies": {
+      "@adiwajshing/baileys": "npm:@neoxr/baileys",
+      "@adiwajshing/keyed-db": "^0.2.4",
+      "@bochilteam/scraper": "^4.2.4",
+      "@colors/colors": "^1.6.0",
+      "@neoxr/wb": "^1.28.41",
+      "another-fb-video-downloader": "^1.0.2",
+      "archiver": "^7.0.0",
+      "axios": "^1.6.7",
+      "bytes": "^3.1.2",
+      "cfonts": "3.1.1",
+      "express": "~4.16.4",
+      "express-handlebars": "^7.1.2",
+      "ffmpeg": "^0.0.4",
+      "gpti": "^2.0.6",
+      "json-stable-stringify": "^1.0.2",
+      "jszip": "^3.10.1",
+      "nayan-media-downloader": "^2.0.5",
+      "network-speed": "^2.1.1",
+      "node-cron": "^3.0.0",
+      "node-gtts": "^2.0.2",
+      "nodemailer": "^6.9.12",
+      "qrcode": "1.5.0",
+      "speedtest-net": "^1.6.2",
+      "streamifier": "^0.1.1",
+      "tools-fb": "^0.0.1-security",
+      "translate-google-api": "^1.0.4"
+   },
+   "devDependencies": {
+      "jimp": "^0.16.13"
+   }
+}
