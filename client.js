@@ -69,6 +69,11 @@ client.on('ready', async () => {
       } catch {}
    }, 60 * 1000 * 10)
 
+    setInterval(() => {
+     console.log('restart').then(async () => {
+         await props.save()
+         process.send('reset')
+      })
    /* save database send http-request every 30 seconds */
    setInterval(async () => {
       if (global.db) await machine.save(global.db)
